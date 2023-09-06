@@ -1,0 +1,14 @@
+header {
+  background: blue;
+  background-image: linear-gradient(45deg, black, transparent);
+  color: white;
+}
+
+#forcast-box {
+  border: black 2px;
+}
+
+.daily-box {
+  background: navy;
+  color: white;
+}

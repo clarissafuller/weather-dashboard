@@ -7,6 +7,30 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+      <section id="search-box">
+        <h2>Search for a City:</h2>
+        <input type="text" placeholder="New York" />
+        <button id="search-button" type="submit">Search</button>
+        <ul id="city-list">
+          <li id="city-list-item">city list</li>
+        </ul>
+      </section>
+      <section id="weather-box"></section>
+      <section id="forcast-box">
+        <section id="current-weather">
+          <h2>Place_Date</h2>
+          <div>temp</div>
+          <div>wind</div>
+          <div>humidity</div>
+        </section>
+        <div class="daily-box"></div>
+      </section>
+    </main>
+    <!-- Add APIs -->
     <script src="./script.js"></script>
   </body>
 </html>
