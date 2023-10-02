@@ -63,13 +63,18 @@ cardBody.setAttribute('class', 'card-body');
 card.append(cardBody);
 
 heading.setAttribute('class', 'h3 card-title');
-heading.setAttribute('class', 'h3 card-title');
-heading.setAttribute('class', 'h3 card-title');
-heading.setAttribute('class', 'h3 card-title');
-heading.setAttribute('class', 'h3 card-title');
-heading.setAttribute('class', 'h3 card-title');
+tempEl.setAttribute('class', 'card-text');
+windEl.setAttribute('class', 'card-text');
+humidityEl.setAttribute('class', 'card-text');
 
-
+heading.textContent = `${city} (${date})`;
+weatherIcon.setAttribute('src', iconUrl);
+weatherIcon.setAttribute('alt', iconDescription);
+weatherIcon.setAttribute('class', 'weather-img');
+heading.append(weatherIcon);
+tempEl.textContent = `Temp: ${tempF} F`;
+windEl.textContent = `Wind: ${windMph} MPH`;
+humidityEl.textContent = `Humidity: ${humidity} %`
 
 }
 //USER INTERACTIONS======================
