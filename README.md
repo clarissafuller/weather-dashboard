@@ -16,7 +16,7 @@ Clone the repository to your machine in a new Github repo. Copy all the files an
 
 ## Usage
 
-This page can be used to check the current weather consitions in any city in the US as well as show you the forecast for the next 5 days. You can check conditions for places you're going or planning for the future in your local area.
+This page can be used to check the current weather conditions in any city in the US as well as show you the forecast for the next 5 days. You can check conditions for places you're going or planning for the future in your local area.
 
 deployed site: https://clarissafuller.github.io/weather-dashboard/
 
