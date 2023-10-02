@@ -8,7 +8,7 @@ var searchHistoryContainer = document.querySelector('#history');
 //DATA==================================
 var searchHistory = [];
 var weatherApiRootUrl = 'https://api.openweathermap.org';
-var weatherApiKey = '';
+var weatherApiKey = 'f2482696e807d323d0d132ef26887c56';
 var currentLatitude = 0;
 var currentLongitude = 0;
 //FUNCTIONS=============================
